@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h1,h2,h3,h4,h5,h6,a,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+/* defoult css */
+/* header css start  */
+.navbar-brand span {
+    color: black;
+  }
+  .navbar-brand h2 {
+    color: #eba94a;
+  }
+ul.our-primary-manu{
+    display: block;
+}
+ul.our-primary-manu li{
+  
+    display: inline-block;
+}
+   
+ul.our-primary-manu li a{
+    color: beige;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 20px 36px;
+  }
+
+.firs-manu{
+    color: #eba94a;
+    font-size: 23px;
+}
+.header-icon{
+    padding: 10px 48px;
+}
+.header-icon i{
+    padding: 20px 14px;
+    font-size: 20px;
+    color: #a6a3a0;
+}
+/* headercss end */
+/* banner css start  */
+.banner-section{
+    background-color: #f8f9fd;
+}
+.banner-text{
+    margin-top: 107px;
+}
+.banner-text h5{
+    color: #a09589;
+    margin-bottom: 10px;
+}
+.banner-text h2{
+   color:#616060 ; 
+   margin-top: 30px;
+}
+.banner-text p{
+    margin-bottom: 20px;
+    color: #d0cfd1;
+}
+.banner-text span{
+    color: rgb(121, 118, 118);
+}
+
+.btn-2{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #eba94a;
+    font-size: 20px;
+}
+.btn-3 {
+    padding: 15px 28px;
+    background-color: #cca920;
+    border-color: #b5b7c2;
+    margin-bottom: 12px;
+    text-decoration: none;
+  }
+/* banner css end  */
+/* about css start  */
+
+
+.about-text-img{
+    background-color: #f8f9fc;
+    width: 300px;
+    height: 318px;
+    padding: 16px;
+}
+.about-text-img h3{
+    color: #64656b;
+    font-size: 24px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+.about-text-img p{
+    color: #aba8a3;
+    
+}
+
+.about-cart-text {}
+.about-cart-text h4{
+    color: #64656b;
+    margin-bottom: 14px;
+}
+.about-cart-text p {
+    color: #aba8a3;
+    margin-top: 10px;
+}
+.btn{
+    padding: 15px 28px;
+background-color: #fff;
+border-color: #64656b;
+margin-bottom: 12px;
+}
+/* about css end  */
+.arival-img{
+    background-color: #f8f9fc;
+    width: 241px;
+    height: 269px;
+    text-align: center;
+    padding: 25px;
+}
+.arival-img h4 {
+    margin-left: 119px;
+    background-color: #d4b50f;
+    padding: 26px -px;
+    padding: 3px 13px;
+  }
+  /* product css end  */
+  /* sofa csss start  */
+  .sofa-colection-section{
+      background:url(https://blogger.googleusercontent.com/img/a/AVvXsEikaKFQQyRNSqzaE2bNJwbpD5S6mAj9Qctj4v8jDJRiKWBAv1F9vD6bbl3r2z36ViqzwkMMKr10IgmwNL9T0lo6eQ5OdmlbPlL7mNOaGb7jNIjS4iA6DcD2Wf9E4IuHypqCdokF5O7hHyXBrecyH5714SZ9k4zcu227ePmT1WyhNkfKwRtWYlNu-W_3rg=s1920) no-repeat center;
+      background-size: cover;
+      height: 600px;
+        
+  }
+  .sofa-text{
+    background-color: #64656b99;
+    text-align: center;
+    width: 600px;
+    height: 548px;
+  }
+  .sofa-text h2{
+      color: #f8f9fc;
+      font-weight: 700;
+  }
+  .sofa-text h4{
+    margin-bottom: 58px;
+  }
+  .sofa-text p{
+      font-weight: 600;
+  }
+  /* sofa css end  */
+  /* Features product css star  */
+  .features-text{}
+  .features-text p{
+      color: #a6a3a0;
+  }
+  .features-text i{
+    color: #cca920;
+    margin-bottom: 12px;
+    margin-top: 13px;
+  }
+  /* features csss end  */
+  /* log0-section start */
+  .logo-section {
+    background-color: #f8f9fd;
+  }
+
+  /* logo-end css */
+  /* footer-1 xss */
+  .footer-1-text{}
+  .footer-1-text ul{}
+  .footer-1-text ul li{
+   
+        margin-bottom: 30px;
+    
+  }
+  input {
+    padding: 11px 24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid #ddd;
+  }
+  /* responsive css */
+  @media only screen and (max-width: 600px) {
+    .about-text-img {
+      
+        margin-bottom: 13px;
+        text-align: center;
+        margin-left: 78px;
+      }
+      .about-text-img {
+        margin-top: 19px;
+      }
+      .about-card-img.py-3 {
+        text-align: center;
+      }
+      .about-cart-text {
+        text-align: center;
+      }
+      .arival-img {
+        width: 100%;
+      }
+      .arival-img h4 {
+        margin-left: 383px;
+      }
+      * {
+        text-align: center;
+      }
+      .logo {
+        margin-bottom: 47px;
+      }
+      #carouselExampleIndicators {
+        margin-top: 81px;
+      }
+  }
+ 
